@@ -10,6 +10,7 @@
     "express": "^4.16.4",
     "next": "^7.0.2",
     "nextjs-dynamic-routes": "^2.5.0",
+    "nprogress": "^0.2.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },

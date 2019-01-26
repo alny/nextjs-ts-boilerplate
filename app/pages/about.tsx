@@ -6,7 +6,7 @@ type Props = {};
 
 interface State {}
 
-class Home extends React.Component<Props, State> {
+class About extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
     this.state = {};
@@ -15,11 +15,10 @@ class Home extends React.Component<Props, State> {
   render() {
     const {} = this.props;
     return (
-      <Layout title="Nextjs - Home">
-        <div>Home</div>
+      <Layout title="About">
         <div>
-          <Link href="/about">
-            <a>About</a>
+          <Link href="/">
+            <a>Home</a>
           </Link>
         </div>
       </Layout>
@@ -27,4 +26,4 @@ class Home extends React.Component<Props, State> {
   }
 }
 
-export default Home;
+export default About;
