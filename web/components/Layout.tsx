@@ -26,8 +26,8 @@ class Layout extends React.Component<Props> {
             content="initial-scale=1.0, width=device-width"
           />
           <link
-            href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700"
             rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
           />
           <link
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"

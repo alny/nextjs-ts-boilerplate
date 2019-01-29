@@ -1,12 +1,10 @@
-import * as React from "react";
-import Layout from "../components/Layout";
-import Link from "next/link";
+import * as React from 'react';
+import Layout from '../components/Layout';
+import Link from 'next/link';
 
 type Props = {};
 
-interface State {}
-
-class About extends React.Component<Props, State> {
+class About extends React.Component<Props, {}> {
   constructor(props: Props) {
     super(props);
     this.state = {};
